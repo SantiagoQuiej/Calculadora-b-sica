@@ -1,4 +1,4 @@
- Calculadora :ábaco:
+# Calculadora :ábaco:
 En este proyecto, aprenderemos a crear una **calculadora básica** que realiza operaciones matemáticas simples como **suma**, **resta**, **multiplicación** y **división**. Utilizaremos tres tecnologías web esenciales para lograrlo:
 - **HTML** :nota:: Definiremos la estructura y los elementos de la calculadora.
 - **CSS** :arte:: Estilizaremos la calculadora para que sea visualmente atractiva.
