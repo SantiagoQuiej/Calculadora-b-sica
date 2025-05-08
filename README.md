@@ -8,4 +8,5 @@ Este es un proyecto ideal para principiantes que quieren comprender cómo integr
 - Conocimientos básicos de HTML, CSS y JavaScript.
 - Un editor de texto para escribir el código (por ejemplo, Visual Studio Code).
 - Un navegador web para visualizar la aplicación.
-![image](https://github.com/user-attachments/assets/6105668b-1f9e-4501-b8db-f40061abd797)
+![image](https://github.com/user-attachments/assets/8662be1d-dcf2-4ed1-88bf-b0cc0fdec356)
+
