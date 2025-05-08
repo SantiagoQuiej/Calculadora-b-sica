@@ -6,11 +6,11 @@ En este proyecto, aprenderemos a crear una **calculadora básica** que realiza o
 - **CSS** :📔:: Estilizaremos la calculadora para que sea visualmente atractiva.
 - **JavaScript** :⚙️:: Implementaremos la lógica para que las operaciones matemáticas funcionen de forma interactiva.
 
-Este es un proyecto ideal para principiantes que quieren comprender cómo integrar HTML, CSS y JavaScript para construir una aplicación funcional.
+Nos ayudara a tener conocimientos sobre el manejo del DOM.
 
 ## Requisitos
 
 - Conocimientos básicos de HTML, CSS y JavaScript.
 - Un editor de texto para escribir el código (por ejemplo, Visual Studio Code).
 - Un navegador web para visualizar la aplicación.
-![image](https://github.com/user-attachments/assets/8662be1d-dcf2-4ed1-88bf-b0cc0fdec356)
+![image](./Captura%20desde%202025-05-08%2013-13-50.png)
