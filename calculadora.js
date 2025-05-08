@@ -30,28 +30,33 @@ const calculadora = (valor) => {
         input.value += valor
         numero += valor
         // cuando el valor sea uno de los signos de las ecuaciones matematicas entrara en el else if.
-    } else if (valor == '(' || valor==')') {
-        input.value += valor
-    
-    } else if (valor == '/' || valor == '+' || valor == '-' || valor == '*') {
-
-        input.value += valor
-        op += parseInt(numero) + valor
+    }
+    else if (valor == '+' || valor == '-' || valor == '*' || valor == '/' || valor == '(' || valor == ')') {
+        //123481+   
+        input.value = input.value + valor
+        //     123481+
+        op = numero != '' ? op + parseFloat(numero) + valor : op + valor
         numero = ''
-        // cuando sea un enter entrara en el else if y nos realizara la ecuacion para que nos de el valor.
-    } else if (valor == 'Enter' || valor == '=') {
-        input.value = eval(op + parseInt(numero))
+    }
+    else if (valor == 'Enter' || valor == '=') {
+        let op3;
+        for (let i = 0; i < op.length; i++) {
+            if (op[i] == '(' && !isNaN(op[0])) {
+                if (!"/*+-".includes(op[i - 1])) {
+                    op3 = op.slice(0, i).concat('*')
+                    op4 = op.slice(i)
+                    op = op3 + op4
+                }
+            }
+        }
+
+        input.value = numero == '' ? eval(op) : eval(op + parseFloat(numero))
         op = ''
         numero = input.value
     }
-    else if (valor == 'Escape' || valor == 'C') {
-        input.value = ''
-        op = ''
-        numero = ''
-    }
     else if (valor == 'Backspace') {
         input.value = input.value.slice(0, input.value.length - 1)
-        op=op.slice(0,op.length-1)
-        numero = numero.slice(0,numero.length-1)
+        op = op.slice(0, op.length - 1)
+        numero = numero.slice(0, numero.length - 1)
     }
 }
