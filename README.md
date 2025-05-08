@@ -13,4 +13,5 @@ Nos ayudara a tener conocimientos sobre el manejo del DOM.
 - Conocimientos básicos de HTML, CSS y JavaScript.
 - Un editor de texto para escribir el código (por ejemplo, Visual Studio Code).
 - Un navegador web para visualizar la aplicación.
+
 ![image](./Captura%20desde%202025-05-08%2013-13-50.png)
